@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.svg"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Vera C's portfolio</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Vera Chiu</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#project" class="nav__link">Project</a>
+            </li>
+
+            <li>
+              <a href="#info" class="nav__link">My Info</a>
+            </li>
+
+            <li>
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="nav__link">Contact Me</a>
+            </li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-large-line"></i>
+          </div>
+        </div>
+
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <img src="assets/img/info-me.jpg" alt="'image" , class="home__img" />
+
+          <div class="home__data">
+            <h1 class="home__name">Jie-Wei Chiu</h1>
+            <h3 class="home__profession">Web Developer</h3>
+          </div>
+
+          <a href="#work" class="home__scroll">
+            <div class="home__scroll-box">
+              <i class="ri-arrow-down-line"></i>
+            </div>
+
+            <span class="home__scroll-text">Recent Works</span>
+          </a>
+        </div>
+      </section>
+
+      <!--==================== PROJECTSS ====================-->
+      <section class="project section" id="project">
+        <h2 class="section__title">PROJECTS</h2>
+
+        <div class="project__container container grid">
+          <article class="project__card">
+            <a
+              href="https://github.com/cjiewei/Bootstrap-5-Examples"
+              target="_blank"
+              class="project__link"
+            >
+              <h2 class="work__title">Taylor Swift website</h2>
+              <p class="project__description">
+                Learn how to deploy static website quickly and easily using
+                HTML, CSS, and Bootstrap. I pay attention to artistic details
+                and give my favorite singer a beautiful image.
+              </p>
+
+              <img
+                src="assets/img/project-1.png"
+                alt="image"
+                class="project__img"
+              />
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+
+          <article class="project__card">
+            <a
+              href="https://github.com/cjiewei/MERN-DALLE"
+              target="_blank"
+              class="project__link"
+            >
+              <h2 class="work__title">DALL-E</h2>
+              <p class="project__description">
+                Learn how to build and deploy a complete MERN AI imaging
+                application using MongoDB, Express.js, React.js, and Node.js.
+                This project connects to the popular OpenAI API to extract
+                AI-generated images.
+              </p>
+
+              <img
+                src="assets/img/project-2.png"
+                alt="image"
+                class="project__img"
+              />
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+
+          <article class="project__card">
+            <a
+              href="https://github.com/cjiewei/React-FilmSeeker"
+              target="_blank"
+              class="project__link"
+            >
+              <h2 class="work__title">FilmSeeker</h2>
+              <p class="project__description">
+                Try making a simple movie query tool! Build a movie application
+                using React that retrieves data from an open-source movie
+                database. (Please use English as the keyword)
+              </p>
+
+              <img
+                src="assets/img/project-3.png"
+                alt="image"
+                class="project__img"
+              />
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+
+          <article class="project__card">
+            <a
+              href="https://github.com/cjiewei/React-QuoteGenerator"
+              target="_blank"
+              class="project__link"
+            >
+              <h2 class="work__title">QuoteGenerator</h2>
+              <p class="project__description">
+                Are you in search of daily inspiration or a quote that
+                accurately reflects your thoughts and emotions? The application
+                retrieves quotes by sending requests to the open source API.
+              </p>
+
+              <img
+                src="assets/img/project-4.png"
+                alt="image"
+                class="project__img"
+              />
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+
+          <article class="project__card">
+            <a
+              href="https://github.com/cjiewei/NCU-DeNox"
+              target="_blank"
+              class="project__link"
+            >
+              <h2 class="work__title">DeNox</h2>
+              <p class="project__description">
+                Our tool provides measured values for users to examine the
+                quality of identified peptides and quantitative metabolites. It
+                enhances the accuracy and reliability of
+                quantitative/identification results.
+              </p>
+
+              <img
+                src="assets/img/project-5.png"
+                alt="image"
+                class="project__img"
+              />
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+
+          <article class="project__card">
+            <a
+              href="https://github.com/cjiewei/MERN-Dashboard"
+              target="_blank"
+              class="project__link"
+            >
+              <h2 class="work__title">Dashboard [ongoing]</h2>
+              <p class="project__description">
+                Use the Refine framework to develop a CRUD full-stack MERN
+                dashboard application with authentication, paging, sorting,
+                filtering and more.application with authentication, paging,
+                sorting, filtering and more.
+              </p>
+
+              <img
+                src="assets/img/project-6.png"
+                alt="image"
+                class="project__img"
+              />
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+
+          <article class="project__card">
+            <a
+              href="https://github.com/cjiewei/MERN-Threads"
+              target="_blank"
+              class="project__link"
+            >
+              <h2 class="work__title">Threads [ongoing]</h2>
+              <p class="project__description">
+                Learn how to deploy full-stack Threads clone using Next.js with
+                server-side rendering, MongoDB, TailwindCSS, Clerk for
+                authentication, and more.
+              </p>
+
+              <img
+                src="assets/img/project-7.png"
+                alt="image"
+                class="project__img"
+              />
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+
+          <article class="project__card">
+            <a
+              href="https://github.com/cjiewei/MERN-E-Commerce"
+              target="_blank"
+              class="project__link"
+            >
+              <h2 class="work__title">E-Commerce [ongoing]</h2>
+              <p class="project__description">
+                I want to deploy an e-commerce site for my friend's reptiles
+                selling. A full-stack application and learn how to use Redux and
+                the Redux toolkit for state management.
+              </p>
+
+              <img
+                src="assets/img/project-8.png"
+                alt="image"
+                class="project__img"
+              />
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+        </div>
+      </section>
+      <!--==================== INFO ====================-->
+      <section class="info section" id="info">
+        <h2 class="section__title">MY INFO</h2>
+
+        <div class="info__container container grid">
+          <!-- ABOUT -->
+          <div class="about grid">
+            <div class="about__content">
+              <h3 class="info__title">About Me</h3>
+              <p class="about__description">
+                Hi, I'm <b>Vera</b>. I'm a <b>Junior Web Developer</b> with a
+                passion to create responsive, accessible and inclusive websites
+                using the newest cutting-edge tech.
+              </p>
+
+              <a
+                href="assets/pdf/vera-resume.pdf"
+                download=""
+                target="_blank"
+                class="button about__button"
+                >Download Resume</a
+              >
+            </div>
+
+            <img
+              src="assets/img/info-profile.png"
+              alt="image"
+              class="about__img"
+            />
+          </div>
+
+          <!-- EXPERIENCE -->
+          <div class="experience">
+            <h3 class="info__title">Experience</h3>
+
+            <div class="experience__content grid">
+              <div class="experience__data grid">
+                <h2 class="experience__company">
+                  2024
+                  <br />
+                  ⁝
+                </h2>
+
+                <div>
+                  <h3 class="experience__profession">
+                    Self-study majors and explore life
+                  </h3>
+                  <span class="experience__date"></span>
+                  <p class="experience__description"></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="experience__content grid">
+              <div class="experience__data grid">
+                <h2 class="experience__company">
+                  2023 <br />
+                  ⁝
+                </h2>
+
+                <div>
+                  <h3 class="experience__profession">
+                    Earn M.S., Biomedical Sciences and Engineering in National
+                    Central University
+                  </h3>
+                  <span class="experience__date"></span>
+                  <p class="experience__description"></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="experience__content grid">
+              <div class="experience__data grid">
+                <h2 class="experience__company">
+                  2022 <br />
+                  ⁝
+                </h2>
+
+                <div>
+                  <h3 class="experience__profession">
+                    Learn program development to solve research problems
+                  </h3>
+                  <span class="experience__date"></span>
+                  <p class="experience__description"></p>
+                </div>
+              </div>
+            </div>
+            <div class="experience__content grid">
+              <div class="experience__data grid">
+                <h2 class="experience__company">
+                  2021 <br />
+                  ⁝
+                </h2>
+
+                <div>
+                  <h3 class="experience__profession">
+                    Earn B.S., Life Sciences in Tunghai University
+                  </h3>
+                  <span class="experience__date"></span>
+                  <p class="experience__description"></p>
+                </div>
+              </div>
+            </div>
+            <div class="experience__content grid">
+              <div class="experience__data grid">
+                <h2 class="experience__company">2020</h2>
+
+                <div>
+                  <h3 class="experience__profession">
+                    Programming exploration
+                  </h3>
+                  <span class="experience__date"></span>
+                  <p class="experience__description"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SKILLS -->
+          <div class="skills">
+            <h3 class="info__title">Technologies</h3>
+
+            <div class="skills__content grid">
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-html.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">HTML</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-css.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">CSS</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-javascript.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">JavaScript</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-react.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">React</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-git.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">Git</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-github.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">Github</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-bootstrap.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">Bootstrap 5</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-jquery.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">jQuery</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-sass.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">Sass</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-nodejs.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">NodeJS</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-expressjs.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">ExpressJS</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-mongodb.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">MongoDB</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-mysql.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">MySQL</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-java.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">Java</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-python.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">Python</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-r.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">R</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-typescript.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">TypeScript</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-npm.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">npm</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-postman.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">Postman</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <h2 class="section__title">SKILLS</h2>
+        <div class="services__container container grid">
+          <article class="services__card">
+            <i class="ri-edit-2-line services__icon"></i>
+            <h3 class="services__title">
+              <p class="services__description">
+                Capable of English reading and writing, TOEIC score of 785 ✒️
+              </p>
+            </h3>
+          </article>
+
+          <article class="services__card">
+            <i class="ri-sparkling-line services__icon"></i>
+            <h3 class="services__title">
+              <p class="services__description">
+                Full of creativity and keen sense of design aesthetics, such as
+                powerpoint presentations 🎨
+              </p>
+            </h3>
+          </article>
+
+          <article class="services__card">
+            <i class="ri-chat-smile-line services__icon"></i>
+            <h3 class="services__title">
+              <p class="services__description">
+                Effective communicator and team player 🥂
+              </p>
+            </h3>
+          </article>
+
+          <article class="services__card">
+            <i class="ri-open-arm-line services__icon"></i>
+            <h3 class="services__title">
+              <p class="services__description">
+                Versatile: Enjoys PC games, basketball, photography and
+                volunteering ✨
+              </p>
+            </h3>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">CONTACT ME</h2>
+
+        <div class="contact__container container grid">
+          <form action="" class="contact__form grid" id="contact-form">
+            <div class="contact__group grid">
+              <input
+                type="text"
+                name="user_name"
+                placeholder="Names"
+                required
+                class="contact__input"
+              />
+              <input
+                type="email"
+                name="user_email"
+                placeholder="Email"
+                required
+                class="contact__input"
+              />
+            </div>
+
+            <textarea
+              name="user_message"
+              placeholder="Message"
+              required
+              class="contact__input contact__area"
+            ></textarea>
+
+            <button type="submit" class="button contact__button">
+              Send Message
+            </button>
+
+            <p class="contact__message" id="contact-message"></p>
+          </form>
+
+          <div class="contact__social grid">
+            <a
+              href="https://github.com/cjiewei"
+              target="_blank"
+              class="contact__social-link"
+            >
+              <i class="ri-github-fill"></i>
+              <span>Github</span>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/cjiewei"
+              target="_blank"
+              class="contact__social-link"
+            >
+              <i class="ri-linkedin-box-fill"></i>
+              <span>Linkedin</span>
+            </a>
+
+            <a
+              href="https://www.instagram.com/im_jwei"
+              target="_blank"
+              class="contact__social-link"
+            >
+              <i class="ri-instagram-fill"></i>
+              <span>Instagram</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <ul class="footer__links">
+          <li>
+            <a href="#home" class="footer__link">Home</a>
+          </li>
+
+          <li>
+            <a href="#project" class="footer__link">Project</a>
+          </li>
+
+          <li>
+            <a href="#info" class="footer__link">Info</a>
+          </li>
+        </ul>
+
+        <span class="footer__copy">
+          &#169; All Rights Reserved By VeraChiu
+        </span>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
